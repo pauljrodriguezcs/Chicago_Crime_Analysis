@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import scipy.linalg as la
 
 print("loading CrimeMapPerMonth... ")
-CrimeMap = np.loadtxt('CrimeMapPerMonth.txt',delimiter=',',dtype=float) # load data
+CrimeMap = np.loadtxt('LatLongZip.txt',delimiter=',',dtype=float) # load data
 print("done ... ")
 
 ### Fall
@@ -39,7 +39,7 @@ for c in range(len(crimes)):
 		if(crime == crimes[c]):
 			for j in range(CrimeMap.shape[0]):
 				zipcode = CrimePerZipcode[i][1] 
-				zc = CrimeMap[j][5]				
+				zc = CrimeMap[j][2]				
 				if(zipcode == zc):
 					x.append(CrimeMap[j][0])
 					y.append(CrimeMap[j][1])
@@ -87,7 +87,7 @@ for c in range(len(crimes)):
 		if(crime == crimes[c]):
 			for j in range(CrimeMap.shape[0]):
 				zipcode = CrimePerZipcode[i][1] 
-				zc = CrimeMap[j][5]				
+				zc = CrimeMap[j][2]				
 				if(zipcode == zc):
 					x.append(CrimeMap[j][0])
 					y.append(CrimeMap[j][1])
@@ -135,7 +135,7 @@ for c in range(len(crimes)):
 		if(crime == crimes[c]):
 			for j in range(CrimeMap.shape[0]):
 				zipcode = CrimePerZipcode[i][1] 
-				zc = CrimeMap[j][5]				
+				zc = CrimeMap[j][2]				
 				if(zipcode == zc):
 					x.append(CrimeMap[j][0])
 					y.append(CrimeMap[j][1])
@@ -183,7 +183,7 @@ for c in range(len(crimes)):
 		if(crime == crimes[c]):
 			for j in range(CrimeMap.shape[0]):
 				zipcode = CrimePerZipcode[i][1] 
-				zc = CrimeMap[j][5]				
+				zc = CrimeMap[j][2]				
 				if(zipcode == zc):
 					x.append(CrimeMap[j][0])
 					y.append(CrimeMap[j][1])

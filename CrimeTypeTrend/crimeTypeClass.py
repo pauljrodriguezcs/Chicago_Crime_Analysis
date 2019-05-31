@@ -10,7 +10,7 @@ print("done ... ")
 ### Fall
 
 print("loading ... ")
-CrimePerZipcode = np.loadtxt('Fall2001to2006.txt',delimiter=',',dtype=float)
+CrimePerZipcode = np.loadtxt('Fall2013to2018.txt',delimiter=',',dtype=float)
 print("done ... ")
 
 # 1: theft
@@ -51,14 +51,14 @@ print("done ... ")
 print("plotting ... ")
 for ind in range(len(x_coord)):
 	plt.plot(y_coord[ind],x_coord[ind],color=colors[ind],marker=',',linestyle='None')
-plt.title("Fall 2001-2006")
+plt.title("Fall 2013-2018")
 plt.axis([-87.96,-87.49,41.6,42.1])
 plt.show()
 
 ### Spring
 
 print("loading ... ")
-CrimePerZipcode = np.loadtxt('Spring2001to2006.txt',delimiter=',',dtype=float)
+CrimePerZipcode = np.loadtxt('Spring2013to2018.txt',delimiter=',',dtype=float)
 print("done ... ")
 
 # 1: theft
@@ -99,14 +99,14 @@ print("done ... ")
 print("plotting ... ")
 for ind in range(len(x_coord)):
 	plt.plot(y_coord[ind],x_coord[ind],color=colors[ind],marker=',',linestyle='None')
-plt.title("Spring 2001-2006")
+plt.title("Spring 2013-2018")
 plt.axis([-87.96,-87.49,41.6,42.1])
 plt.show()
 
 ### Summer
 
 print("loading ... ")
-CrimePerZipcode = np.loadtxt('Summer2001to2006.txt',delimiter=',',dtype=float)
+CrimePerZipcode = np.loadtxt('Summer2013to2018.txt',delimiter=',',dtype=float)
 print("done ... ")
 
 # 1: theft
@@ -147,14 +147,14 @@ print("done ... ")
 print("plotting ... ")
 for ind in range(len(x_coord)):
 	plt.plot(y_coord[ind],x_coord[ind],color=colors[ind],marker=',',linestyle='None')
-plt.title("Summer 2001-2006")
+plt.title("Summer 2013-2018")
 plt.axis([-87.96,-87.49,41.6,42.1])
 plt.show()
 
 ### Winter
 
 print("loading ... ")
-CrimePerZipcode = np.loadtxt('Winter2001to2006.txt',delimiter=',',dtype=float)
+CrimePerZipcode = np.loadtxt('Winter2013to2018.txt',delimiter=',',dtype=float)
 print("done ... ")
 
 # 1: theft
@@ -195,7 +195,7 @@ print("done ... ")
 print("plotting ... ")
 for ind in range(len(x_coord)):
 	plt.plot(y_coord[ind],x_coord[ind],color=colors[ind],marker=',',linestyle='None')
-plt.title("Winter 2001-2006")
+plt.title("Winter 2013-2018")
 plt.axis([-87.96,-87.49,41.6,42.1])
 plt.show()
 

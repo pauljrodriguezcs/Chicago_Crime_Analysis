@@ -8,23 +8,23 @@ plt.figure(figsize=(16,9))
 
 timeSeries = np.loadtxt('TheftTS.txt',delimiter=',',dtype=float) # load data
 hourly = timeSeries[:,0]
-plt.plot(hourly,'r-', label='theft')
+plt.plot(hourly,'r-', label='Theft')
 
 timeSeries = np.loadtxt('BatteryTS.txt',delimiter=',',dtype=float) # load data
 hourly = timeSeries[:,0]
-plt.plot(hourly,'g-', label='battery')
+plt.plot(hourly,'g-', label='Battery')
 
 timeSeries = np.loadtxt('CriminalDamageTS.txt',delimiter=',',dtype=float) # load data
 hourly = timeSeries[:,0]
-plt.plot(hourly,'b-', label='CriminalDamage')
+plt.plot(hourly,'b-', label='Criminal_Damage')
 
 timeSeries = np.loadtxt('TarcoticsTS.txt',delimiter=',',dtype=float) # load data
 hourly = timeSeries[:,0]
-plt.plot(hourly,'c-', label='narcotics')
+plt.plot(hourly,'c-', label='Narcotics')
 
 timeSeries = np.loadtxt('AssaultTS.txt',delimiter=',',dtype=float) # load data
 hourly = timeSeries[:,0]
-plt.plot(hourly,'m-', label='assault')
+plt.plot(hourly,'m-', label='Assault')
 
 plt.xticks(np.arange(0,24,step=1))
 plt.grid(True)

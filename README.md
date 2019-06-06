@@ -36,7 +36,7 @@ Each directory has its own program corresponding to what type of analysis we are
 
 ## Authors and Acknowledgment
 
-The following people have contributed greatly toward the making of this project: 
+The following people have contributed greatly towards the making of this project: 
 
 - Mehrad Amin
 - Jonathan Peng
@@ -44,4 +44,4 @@ The following people have contributed greatly toward the making of this project:
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/pauljrodriguezcs/Chicago_Crime_Analysis/blob/master/LICENSE)

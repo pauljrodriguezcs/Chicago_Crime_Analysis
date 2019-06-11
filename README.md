@@ -32,7 +32,9 @@ and the prediction of total crimes for the years 2019-2024 will appear.
 
 Each directory has its own program corresponding to what type of analysis we are performing. 
 
-`// still under development`
+For each of the programs we used, we created smaller datasets to obtain the data we needed so we would not have to use the entire dataset. This made programs run much quicker and more effectively. 
+
+The SQL queries can be found under the SQL directory. 
 
 ## Authors and Acknowledgment
 
